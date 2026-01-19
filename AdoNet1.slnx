@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AdoNet1/AdoNet1.csproj" />
+  <Project Path="AdoNet2/AdoNet2.csproj" />
+</Solution>

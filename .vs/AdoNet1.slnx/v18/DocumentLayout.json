@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B92022B-D867-436E-AD8C-93505A016B45}|AdoNet2\\AdoNet2.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet2\\classes\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B92022B-D867-436E-AD8C-93505A016B45}|AdoNet2\\AdoNet2.csproj|solutionrelative:adonet2\\classes\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B92022B-D867-436E-AD8C-93505A016B45}|AdoNet2\\AdoNet2.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B92022B-D867-436E-AD8C-93505A016B45}|AdoNet2\\AdoNet2.csproj|solutionrelative:adonet2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 332,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet2\\Program.cs",
+              "RelativeDocumentMoniker": "AdoNet2\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet2\\Program.cs",
+              "RelativeToolTip": "AdoNet2\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:22:47.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Livre.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet2\\Classes\\Livre.cs",
+              "RelativeDocumentMoniker": "AdoNet2\\Classes\\Livre.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet2\\Classes\\Livre.cs",
+              "RelativeToolTip": "AdoNet2\\Classes\\Livre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:12:06.872Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
