@@ -34,3 +34,4 @@ C:\Users\Administrateur\Desktop\ExoAdo.net\AdoNet1\AdoNet2\obj\Debug\net10.0\ref
 C:\Users\Administrateur\Desktop\ExoAdo.net\AdoNet1\AdoNet2\obj\Debug\net10.0\AdoNet2.pdb
 C:\Users\Administrateur\Desktop\ExoAdo.net\AdoNet1\AdoNet2\obj\Debug\net10.0\AdoNet2.genruntimeconfig.cache
 C:\Users\Administrateur\Desktop\ExoAdo.net\AdoNet1\AdoNet2\obj\Debug\net10.0\ref\AdoNet2.dll
+C:\Users\Administrateur\Desktop\ExoAdo.net\AdoNet1\AdoNet2\obj\Debug\net10.0\AdoNet2.sourcelink.json
