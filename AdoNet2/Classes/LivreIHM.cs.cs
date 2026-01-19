@@ -23,6 +23,8 @@ namespace AdoNet2.Classes
                 Console.WriteLine("3. Consulter un livre");
                 Console.WriteLine("4. Modifier un livre");
                 Console.WriteLine("5. Supprimer un livre");
+                Console.WriteLine("6. Chercher un livre par titre");
+
                 Console.WriteLine("0. Quitter");
 
                 Console.Write("Choix : ");
@@ -35,6 +37,7 @@ namespace AdoNet2.Classes
                     case "3": Consulter(); break;
                     case "4": Modifier(); break;
                     case "5": Supprimer(); break;
+                    case "6": ChercherParTitre(); break;
                     case "0": return;
                     default: Console.WriteLine("Choix invalide"); break;
                 }
@@ -81,6 +84,26 @@ namespace AdoNet2.Classes
 
             Console.WriteLine($"{livre.Titre} - {livre.Auteur} - {livre.AnneePublication} - {livre.Isbn}");
         }
+
+        private void ChercherParTitre()
+        {
+            Console.Write("Mot-clé dans le titre : ");
+            string motCle = Console.ReadLine();
+
+            var livres = _repository.ChercherParTitre(motCle);
+
+            if (livres.Count == 0)
+            {
+                Console.WriteLine("Aucun livre trouvé.");
+                return;
+            }
+
+            foreach (var livre in livres)
+            {
+                Console.WriteLine($"{livre.Id} | {livre.Titre} | {livre.Auteur} | {livre.AnneePublication} | {livre.Isbn}");
+            }
+        }
+
 
         private void Modifier()
         {

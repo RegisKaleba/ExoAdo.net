@@ -81,6 +81,35 @@ namespace AdoNet2.Classes
             return null;
         }
 
+        public List<Livre> ChercherParTitre(string motCle)
+        {
+            List<Livre> livres = new();
+
+            using MySqlConnection connection = new MySqlConnection(_connectionString);
+            connection.Open();
+
+            string query = "SELECT * FROM Livre WHERE Titre LIKE @motCle";
+
+            MySqlCommand cmd = new MySqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@motCle", "%" + motCle + "%"); // % pour recherche partielle
+
+            using MySqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                livres.Add(new Livre
+                {
+                    Id = reader.GetInt32("Id"),
+                    Titre = reader.GetString("Titre"),
+                    Auteur = reader.GetString("Auteur"),
+                    AnneePublication = reader.GetInt32("AnneePublication"),
+                    Isbn = reader.GetString("Isbn")
+                });
+            }
+
+            return livres;
+        }
+
+
         public bool Modifier(Livre livre)
         {
             using MySqlConnection connection = new MySqlConnection(_connectionString);
