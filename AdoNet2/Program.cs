@@ -24,7 +24,7 @@ void AjouterLivre()
         Console.Write("Année de publication : ");
         if (!int.TryParse(Console.ReadLine(), out int annee))
         {
-            Console.WriteLine("❌ Année invalide");
+            Console.WriteLine("Année invalide");
             return;
         }
 
