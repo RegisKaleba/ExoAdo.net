@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|solutionrelative:adonet3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet3\\classes\\gestionihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|solutionrelative:adonet3\\classes\\gestionihm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet3\\classes\\gestiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|solutionrelative:adonet3\\classes\\gestiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet3\\classes\\commandes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet3\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|solutionrelative:adonet3\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|c:\\users\\administrateur\\desktop\\exoado.net\\adonet1\\adonet3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6617DC-5E1C-4087-AE90-7A69C767A7B1}|AdoNet3\\AdoNet3.csproj|solutionrelative:adonet3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GestionDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\GestionDAO.cs",
+              "RelativeDocumentMoniker": "AdoNet3\\Classes\\GestionDAO.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\GestionDAO.cs",
+              "RelativeToolTip": "AdoNet3\\Classes\\GestionDAO.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAA8wEEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T15:12:48.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionIHM.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\GestionIHM.cs",
+              "RelativeDocumentMoniker": "AdoNet3\\Classes\\GestionIHM.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\GestionIHM.cs",
+              "RelativeToolTip": "AdoNet3\\Classes\\GestionIHM.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwG0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T15:10:20.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Commandes.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\Commandes.cs",
               "RelativeDocumentMoniker": "AdoNet3\\Classes\\Commandes.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\Commandes.cs",
               "RelativeToolTip": "AdoNet3\\Classes\\Commandes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T10:45:13.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\Client.cs",
               "RelativeDocumentMoniker": "AdoNet3\\Classes\\Client.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Classes\\Client.cs",
               "RelativeToolTip": "AdoNet3\\Classes\\Client.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwBAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T10:44:56.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Program.cs",
               "RelativeDocumentMoniker": "AdoNet3\\Program.cs",
               "ToolTip": "C:\\Users\\Administrateur\\Desktop\\ExoAdo.net\\AdoNet1\\AdoNet3\\Program.cs",
               "RelativeToolTip": "AdoNet3\\Program.cs",
-              "ViewState": "AgIAAB8BAAAAAAAAAAAAANIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T10:37:49.639Z",
               "EditorCaption": ""

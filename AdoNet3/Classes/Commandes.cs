@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AdoNet3.Classes
 {
-    internal class Commande
+    public class Commande
     {
         public int ID { get; set; }
         public int ClientID { get; set; }
