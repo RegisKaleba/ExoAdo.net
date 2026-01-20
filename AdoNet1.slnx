@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="AdoNet1/AdoNet1.csproj" />
   <Project Path="AdoNet2/AdoNet2.csproj" />
+  <Project Path="AdoNet3/AdoNet3.csproj" Id="9a6617dc-5e1c-4087-ae90-7a69c767a7b1" />
 </Solution>
